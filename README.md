@@ -1,5 +1,19 @@
 # Chart Anime
 
+## python version
+3.10.9
+
+## 安裝依賴庫
+
+在開始使用專案之前，請確保已安裝所有必要的依賴庫。請按照以下步驟操作：
+
+1. 開啟終端（Terminal）。
+2. 切換到專案的根目錄：
+   ```bash
+   cd /path/to/project
+   pip install -r requirements.txt
+   ```
+   
 ## 問題描述
 
 在開發過程中，我們發現以下問題可能導致應用程式運行異常：
@@ -19,3 +33,10 @@
 
 ```bash
 python app.py
+```
+
+
+
+
+
+
