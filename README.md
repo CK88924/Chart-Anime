@@ -9,9 +9,9 @@
 
 1. 開啟終端（Terminal）。
 2. 切換到專案的根目錄：
-   ```bash
-   cd /path/to/project
-   ```
+ ```bash
+ cd /path/to/project
+ ```
 3. 執行指令
  ```bash
  pip install -r requirements.txt
