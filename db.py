@@ -1,6 +1,7 @@
 import mysql.connector
 import hashlib
 import datetime
+
 # 數據庫連接配置
 DB_CONFIG = {
     'host': 'localhost',
@@ -30,7 +31,5 @@ def fetch_data_from_mysql(query):
 def hash_data(data):
     """
     生成數據的哈希值。
-    :param data: 數據列表
-    :return: 哈希字符串
     """
     return hashlib.sha256(str(data).encode('utf-8')).hexdigest()
